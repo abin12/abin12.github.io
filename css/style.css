@@ -393,7 +393,7 @@ hr {
   .testhead p {
     font-size: 14px ;
     line-height: 28px;
-    padding: 5px !important;
+    padding: 8px !important;
     max-width: 320px;
     border: 1px solid #fff;
     border-radius: 6px;
@@ -544,6 +544,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
   border-radius: 6px;
   background: rgba(0, 0, 0, .5);
   margin: auto;
+  text-align: center;
 }
 
 p.testhead {
@@ -598,8 +599,8 @@ header .testhead-text {
 /*timing section  */
 .timebox {
   width: auto;
-  height: auto;
-  margin: 5px;
+  height: 200px ;
+  margin: 20px;
   border: 3px solid black;
   border-radius: 5px;
   border-color: #1f386e;
