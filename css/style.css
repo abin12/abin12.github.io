@@ -601,7 +601,7 @@ header .testhead-text {
   width: auto;
   height: 200px ;
   margin: 20px;
-  border: 3px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   border-color: #1f386e;
 }
@@ -700,8 +700,8 @@ header .testhead-text {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: black;
-  opacity: 0.7;
+  background-color:rgba(0, 0, 0, 0.7);
+
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -709,15 +709,23 @@ header .testhead-text {
 }
 
 .hovertext {
+  width:90%;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  margin:0px !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.hovertext p{
+
+  font-size: 14px !important;
+
 }
 
 .imgtext {
@@ -745,7 +753,7 @@ header .testhead-text {
 }
 
 .hoverbox:hover .bottomoverlay {
-  height: 30% !important;
+  height: 40% !important;
 }
 
 .slider .slick-list .slick-track .slick-center .imgtext {
@@ -757,9 +765,17 @@ header .testhead-text {
 }
 
 .slider .slick-list .slick-track .slick-center .bottomoverlay {
-  height: 30%;
+  height: 40%;
 }
+.smhead h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-size: 40px;
+  font-weight:600;
+  padding: 2px;
+  margin-top: 3px; 
 
+}
 /* Gallery Section */
 #gallery {
   padding: 100px 0;
